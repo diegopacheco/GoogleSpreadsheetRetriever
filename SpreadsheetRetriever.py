@@ -10,10 +10,10 @@ import gdata.service
 import gdata.spreadsheet
 import gdata.spreadsheet.text_db
 
-username        = 'YOUR_EMAIL'
-password        = 'PASSWORD'
-doc_name        = 'NAME_OF_FILE'
-column_title      = 'COLUMN_TITLE' 
+username        = 'diego.pacheco@ilegra.com'
+password        = '.'
+doc_name        = 'Bradesco - Metrics'
+column_title      = 'B6' 
 
 gd_client = gdata.spreadsheet.service.SpreadsheetsService()
 gd_client.email = username
